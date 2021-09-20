@@ -9,15 +9,11 @@
                 FROM Orders
                 WHERE ShipperID = 1;
             </li>
-
             <li> ANSWER:
                     54 
             </li>
         </ol>
     </li>
-
-
-
     <li> What is the last name of the employee with the most orders? 
         <ol type="1">
             <li> QUERY:
@@ -27,15 +23,11 @@
                     GROUP BY Orders.EmployeeID, Employees.LastName
                     ORDER BY COUNT(*) DESC
             </li>
-
             <li> ANSWER:
                     Peacock
             </li>
         </ol>
     </li>
-
-
-
     <li> What product was ordered the most by customers in Germany?
         <ol type="1">
             <li> QUERY:
@@ -51,7 +43,6 @@
                     GROUP BY Products.ProductName
                     ORDER BY SUM(OrderDetails.Quantity) DESC
             </li>
-
             <li> ANSWER:
                     Boston Crab Meat
             </li>
