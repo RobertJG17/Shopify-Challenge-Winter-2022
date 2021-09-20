@@ -10,7 +10,7 @@
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; WHERE ShipperID = 1;
             </li>
             <li> ANSWER:
-                <br> &nbsp;&nbsp;&nbsp;&nbsp; 54 
+                <br> &nbsp;&nbsp;&nbsp;&nbsp; Speedy Express shipped 54 ordes in total.
             </li>
         </ol>
     </li>
@@ -24,7 +24,7 @@
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; ORDER BY COUNT(*) DESC
             </li>
             <li> ANSWER:
-                    Peacock
+                <br> &nbsp;&nbsp;&nbsp;&nbsp; Peacock is the last name of the employee with the most orders.
             </li>
         </ol>
     </li>
@@ -44,7 +44,7 @@
                 <br> &nbsp;&nbsp;&nbsp;&nbsp; ORDER BY SUM(OrderDetails.Quantity) DESC
             </li>
             <li> ANSWER:
-                    Boston Crab Meat
+                <br> &nbsp;&nbsp;&nbsp;&nbsp; Boston Crab Meat was the most ordered product by German patrons.
             </li>
         </ol>
     </li>            
