@@ -3,11 +3,11 @@
 
 <ol type="a">
     <li> How many orders were shipped by Speedy Express in total? 
-        <ol type=1>
-            <li> QUERY:
-                    SELECT COUNT(*)
-                    FROM Orders
-                    WHERE ShipperID = 1;
+        <ol type="1">
+            <li> QUERY: 
+                SELECT COUNT(*) 
+                FROM Orders
+                WHERE ShipperID = 1;
             </li>
 
             <li> ANSWER:
@@ -19,7 +19,7 @@
 
 
     <li> What is the last name of the employee with the most orders? 
-        <ol type=1>
+        <ol type="1">
             <li> QUERY:
                     SELECT Orders.EmployeeID, Employees.LastName, COUNT(*) AS FREQ
                     FROM Orders, Employees
@@ -37,7 +37,7 @@
 
 
     <li> What product was ordered the most by customers in Germany?
-        <ol type=1>
+        <ol type="1">
             <li> QUERY:
                     SELECT Products.ProductName, SUM(OrderDetails.Quantity) AS Total
                     FROM OrderDetails, Products
