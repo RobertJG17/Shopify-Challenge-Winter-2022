@@ -5,7 +5,7 @@
     <li> How many orders were shipped by Speedy Express in total? 
         <ol type="1">
             <li> QUERY:
-                <br> SELECT COUNT(*) 
+                <br> &nbsp;&nbsp;&nbsp;&nbsp; SELECT COUNT(*) 
                 <br> FROM Orders
                 <br> WHERE ShipperID = 1;
             </li>
