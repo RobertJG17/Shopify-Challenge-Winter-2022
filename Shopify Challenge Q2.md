@@ -27,7 +27,7 @@
             </li>
             <br>
             <li> ANSWER:
-                <br> &nbsp;&nbsp;&nbsp;&nbsp; Peacock is the last name of the employee with the most orders.
+                <br> &nbsp;&nbsp;&nbsp;&nbsp; Peacock is the last name of the employee with the most orders (40).
             </li>
         </ol>
     </li>
@@ -49,7 +49,7 @@
             </li>
             <br>
             <li> ANSWER:
-                <br> &nbsp;&nbsp;&nbsp;&nbsp; Boston Crab Meat was the most ordered product by German patrons.
+                <br> &nbsp;&nbsp;&nbsp;&nbsp; Boston Crab Meat was the most ordered product by German patrons (160).
             </li>
         </ol>
     </li>            
