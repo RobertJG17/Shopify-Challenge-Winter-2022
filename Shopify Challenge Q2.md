@@ -11,7 +11,7 @@
             </li>
             <br>
             <li> ANSWER:
-                <br> &nbsp;&nbsp;&nbsp;&nbsp; Speedy Express shipped 54 ordes in total.
+                <br> &nbsp;&nbsp;&nbsp;&nbsp; Speedy Express shipped 54 orders in total.
             </li>
         </ol>
     </li>
